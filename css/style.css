@@ -9,7 +9,7 @@
 }
 
 .text {
-  font-size: 60px;
+  font-size: 120px;
   color: var(--red);
   font-family: var(--main-font);
   position: relative;
