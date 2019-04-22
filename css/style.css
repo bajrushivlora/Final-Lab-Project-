@@ -1,0 +1,24 @@
+:root {
+  --main-font: "Bowlby One", cursive;
+  --black: #000000;
+  --blue: #004a72;
+  --purple: #524766;
+  --red: #87363e;
+  --white: #ffffff;
+}
+
+.text {
+  font-size: 60px;
+  color: var(--white);
+  font-family: var(--main-font);
+  position: relative;
+  margin: 0;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+body {
+  background-color: var(--black);
+}
+
+/*# sourceMappingURL=style.css.map */
