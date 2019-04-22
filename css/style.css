@@ -55,8 +55,8 @@ a:hover {
   padding-top: 15px;
   padding-bottom: 60px;
   animation-name: slide;
-  animation-duration: 3s;
-  animation-iteration-count: none;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
 }
 
 @keyframes slide {
