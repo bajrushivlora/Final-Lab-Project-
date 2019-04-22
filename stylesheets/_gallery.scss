@@ -1,0 +1,55 @@
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	&_pic {
+		width: calc(25% - 12px);
+		background-size: 100%;
+		transition: all .2s ease-in-out;
+		background-position: center;
+		margin-bottom: 13px;
+		cursor: pointer;
+
+		&:nth-child(1) {
+			background-image: url("../images/kendrick.jpg");
+			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
+		}
+
+		&:nth-child(2) {
+			background-image: url("../images/pnd.jpg");
+			background-size: 100%;
+
+			&:hover {
+				filter: opacity(70%);
+			}
+		}
+
+		&:nth-child(3) {
+			background-image: url("../images/pndd.jpeg");
+			background-size: 100%;
+
+			&:hover {
+				filter: opacity(70%);
+			}
+		}
+		
+		&:nth-child(4) {
+			background-image: url("../images/weeknd.jpg");
+			background-size: 100%;
+
+			&:hover {
+				filter: opacity(70%);
+			}
+		}
+	
+		div{
+			padding-bottom: 56.25%;
+		}
+
+	}
+}
