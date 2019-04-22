@@ -1,24 +1,47 @@
 :root {
   --main-font: "Bowlby One", cursive;
+  --sansone: "Fjalla One", sans-serif;
   --black: #000000;
   --blue: #004a72;
   --purple: #524766;
   --red: #87363e;
-  --white: #ffffff;
+  --white: #e2e2e2;
 }
 
 .text {
   font-size: 60px;
-  color: var(--white);
+  color: var(--red);
   font-family: var(--main-font);
   position: relative;
   margin: 0;
+  letter-spacing: 5px;
   padding-left: 15px;
   padding-top: 15px;
+  padding-bottom: 60px;
 }
 
 body {
   background-color: var(--black);
+}
+
+.genre {
+  font-family: var(--sansone);
+  font-weight: bold;
+  font-size: 15px;
+  color: var(--white);
+  letter-spacing: 0px;
+  padding-left: 15px;
+  margin: 5px;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--blue);
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
