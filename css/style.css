@@ -2,10 +2,10 @@
   --main-font: "Bowlby One", cursive;
   --sansone: "Fjalla One", sans-serif;
   --black: #000000;
-  --blue: #004a72;
-  --purple: #524766;
-  --red: #87363e;
   --white: #e2e2e2;
+  --red: #87363e;
+  --blue: #004a72;
+  --purple: #6c529d;
 }
 
 .text {
@@ -44,7 +44,7 @@ a:hover {
   text-decoration: none;
 }
 
-.newtext {
+.genretitles {
   font-size: 60px;
   color: var(--blue);
   font-family: var(--main-font);
