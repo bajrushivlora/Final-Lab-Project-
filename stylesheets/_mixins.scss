@@ -1,0 +1,14 @@
+@mixin keyframes($slide) {
+    @-webkit-keyframes #{$slide} {
+        @content;
+    }
+    @-moz-keyframes #{$slide} {
+        @content;
+    }
+    @-o-keyframes #{$slide} {
+        @content;
+    }
+    @keyframes #{$slide} {
+        @content;
+    }
+}
