@@ -76,7 +76,6 @@ table {
 
 html, body {
   background-color: var(--black);
-  padding: 1rem 2rem;
 }
 
 .genre {
@@ -122,16 +121,48 @@ a:hover {
     transform: translateX(0px);
   }
 }
-img {
-  width: 100%;
-  display: block;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.column {
-  float: left;
-  padding: 0px;
-  box-sizing: border-box;
-  width: calc(100% / 3);
+.gallery__item {
+  width: calc(33.3% - 12px);
+  height: auto;
+  background-size: 100%;
+  transition: all 0.2s ease-in-out;
+  background-position: center;
+  margin-bottom: 0px;
+}
+.gallery__item:nth-child(1) {
+  background-image: url("../images/kendrick.jpg");
+  background-size: 100%;
+}
+.gallery__item:nth-child(1):hover {
+  opacity: 70%;
+}
+.gallery__item:nth-child(2) {
+  background-image: url("../images/pnd.jpg");
+  background-size: 100%;
+}
+.gallery__item:nth-child(2):hover {
+  opacity: 70%;
+}
+.gallery__item:nth-child(3) {
+  background-image: url("../images/pndd.jpg");
+  background-size: 100%;
+}
+.gallery__item:nth-child(3):hover {
+  opacity: 70%;
+}
+.gallery__item:nth-child(4) {
+  background-image: url("../images/weeknd.jpg");
+  background-size: 100%;
+}
+.gallery__item:nth-child(4):hover {
+  opacity: 70%;
+}
+.gallery__item div {
+  padding-bottom: 56.25%;
 }
 
 /*# sourceMappingURL=style.css.map */
