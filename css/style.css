@@ -115,7 +115,7 @@ a:hover {
 
 @keyframes slide {
   0% {
-    transform: translateX(-600px);
+    transform: translateX(-700px);
   }
   100% {
     transform: translateX(0px);
