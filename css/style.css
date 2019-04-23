@@ -74,8 +74,9 @@ table {
   padding-bottom: 60px;
 }
 
-body {
+html, body {
   background-color: var(--black);
+  padding: 1rem 2rem;
 }
 
 .genre {
@@ -109,7 +110,7 @@ a:hover {
   padding-top: 15px;
   padding-bottom: 60px;
   animation-name: slide;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: none;
 }
 
@@ -121,49 +122,16 @@ a:hover {
     transform: translateX(0px);
   }
 }
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+img {
+  width: 100%;
+  display: block;
 }
-.gallery_pic {
-  width: calc(25% - 12px);
-  background-size: 100%;
-  transition: all 0.2s ease-in-out;
-  background-position: center;
-  margin-bottom: 13px;
-  cursor: pointer;
-}
-.gallery_pic:nth-child(1) {
-  background-image: url("../images/kendrick.jpg");
-  background-size: 100%;
-}
-.gallery_pic:nth-child(1):hover {
-  background-size: 104%;
-}
-.gallery_pic:nth-child(2) {
-  background-image: url("../images/pnd.jpg");
-  background-size: 100%;
-}
-.gallery_pic:nth-child(2):hover {
-  filter: opacity(70%);
-}
-.gallery_pic:nth-child(3) {
-  background-image: url("../images/pndd.jpeg");
-  background-size: 100%;
-}
-.gallery_pic:nth-child(3):hover {
-  filter: opacity(70%);
-}
-.gallery_pic:nth-child(4) {
-  background-image: url("../images/weeknd.jpg");
-  background-size: 100%;
-}
-.gallery_pic:nth-child(4):hover {
-  filter: opacity(70%);
-}
-.gallery_pic div {
-  padding-bottom: 56.25%;
+
+.column {
+  float: left;
+  padding: 0px;
+  box-sizing: border-box;
+  width: calc(100% / 3);
 }
 
 /*# sourceMappingURL=style.css.map */
