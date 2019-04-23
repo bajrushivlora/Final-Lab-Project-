@@ -124,45 +124,8 @@ a:hover {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-}
-.gallery__item {
-  width: calc(33.3% - 12px);
-  height: auto;
-  background-size: 100%;
-  transition: all 0.2s ease-in-out;
-  background-position: center;
-  margin-bottom: 0px;
-}
-.gallery__item:nth-child(1) {
-  background-image: url("../images/kendrick.jpg");
-  background-size: 100%;
-}
-.gallery__item:nth-child(1):hover {
-  opacity: 70%;
-}
-.gallery__item:nth-child(2) {
-  background-image: url("../images/pnd.jpg");
-  background-size: 100%;
-}
-.gallery__item:nth-child(2):hover {
-  opacity: 70%;
-}
-.gallery__item:nth-child(3) {
-  background-image: url("../images/pndd.jpg");
-  background-size: 100%;
-}
-.gallery__item:nth-child(3):hover {
-  opacity: 70%;
-}
-.gallery__item:nth-child(4) {
-  background-image: url("../images/weeknd.jpg");
-  background-size: 100%;
-}
-.gallery__item:nth-child(4):hover {
-  opacity: 70%;
-}
-.gallery__item div {
-  padding-bottom: 56.25%;
+  width: 100px;
+  height: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
