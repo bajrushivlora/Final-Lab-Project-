@@ -121,11 +121,16 @@ a:hover {
     transform: translateX(0px);
   }
 }
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100px;
-  height: 100px;
+.albums {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 5vw);
+  grid-gap: 0px;
+}
+.albums__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
