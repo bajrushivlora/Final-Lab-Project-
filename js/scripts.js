@@ -1,23 +1,23 @@
-document.getElementById("weeknd_album").addEventListener("mouseover", playSong);
-document.getElementById("weeknd_album").addEventListener("mouseout", stopSong);
+document.getElementById("weeknd_album").addEventListener("mouseover", weekndSong);
+document.getElementById("weeknd_album").addEventListener("mouseout", stopWeekndSong);
 
-function playSong() {
+function weekndSong() {
     document.getElementById("weeknd").play();
 }
 
-function stopSong() {
+function stopWeekndSong() {
     document.getElementById("weeknd").load();
 }
 
 
-document.getElementById("pnd2_album").addEventListener("mouseover", playSong);
-document.getElementById("pnd2_album").addEventListener("mouseout", stopSong);
+document.getElementById("pnd2_album").addEventListener("mouseover", PNDSong);
+document.getElementById("pnd2_album").addEventListener("mouseout", stopPNDSong);
 
-function playSong() {
+function PNDSong() {
     document.getElementById("pnd2").play();
 }
 
-function stopSong() {
+function stopPNDSong() {
     document.getElementById("pnd2").load();
 }
 
