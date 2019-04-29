@@ -8,51 +8,74 @@
         <link href="https://fonts.googleapis.com/css?family=Bowlby+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     </head>
+
     <body>
         <h1 class="genretitles">
             ALTERNATIVE R&B
         </h1>
-        <h1 class="genre">
-            <a class="link" href="https://bajrushivlora.github.io/Final-Lab-Project-/">
-                HOME
-        </h1>
-        <h2 class="genre">
-            <a class="link" href="https://bajrushivlora.github.io/Final-Lab-Project-/hiphop.html">
-                HIP HOP
-            </a>
-        </h2>
-        <h3 class="genre">
-            <a class="link" href="https://bajrushivlora.github.io/Final-Lab-Project-/alternative.html">
-                ALTERNATIVE R&B
-            </a>
-        </h3>
-        <h4 class="genre">
-            <a class="link" href="https://bajrushivlora.github.io/Final-Lab-Project-/pop.html">
-                POP & DANCE
-            </a>
-        </h4>
-        <h5 class="genre">
-            <a class="link" href="https://bajrushivlora.github.io/Final-Lab-Project-/throwback.html">
-                THROWBACK JAM
-            </a>
-        </h5>
-        <h5 class="genre">
-            <a class="link" href="https://open.spotify.com/user/sourandsweet749?si=ygqF-2FkTGGIf--aSIltGQ">
-                VLORA'S SPOTIFY 
-            </a>
-        </h5>
-
-        <div class="albums">
-            <a data-href="images/kendrick.jpg" class="gallery__item">
-                <div></div>
-            </a>
-            <a data-href="images/pnd.jpg" class="gallery__item">
-                <div></div>
-            </a>
-            <a data-href="images/pndd.jpg" class="gallery__item">
-                <div></div>
-            </a>
+        <div class="container">
+            <div class="genres">
+                <h1 class="genres_genre">
+                    <a class="link" href="https://bajrushivlora.github.io/Final-Lab-Project-/">
+                        HOME
+                    </a>
+                </h1>
+                <h2 class="genres_genre">
+                    <a class="link" href="https://bajrushivlora.github.io/Final-Lab-Project-/hiphop.html">
+                        HIP HOP
+                    </a>
+                </h2>
+                <h3 class="genres_genre">
+                    <a class="link" href="https://bajrushivlora.github.io/Final-Lab-Project-/alternative.html">
+                        ALTERNATIVE R&B
+                    </a>
+                </h3>
+                <h4 class="genres_genre">
+                    <a class="link" href="https://bajrushivlora.github.io/Final-Lab-Project-/pop.html">
+                        POP & DANCE
+                    </a>
+                </h4>
+                <h5 class="genres_genre">
+                    <a class="link" href="https://bajrushivlora.github.io/Final-Lab-Project-/throwback.html">
+                        THROWBACK JAM
+                    </a>
+                </h5>
+                <h5 class="genres_genre">
+                    <a class="link" href="https://open.spotify.com/user/sourandsweet749?si=ygqF-2FkTGGIf--aSIltGQ">
+                        VLORA'S SPOTIFY 
+                    </a>
+                </h5>
+            </div>
+            <div class="grid">
+                <div class="grid_item">
+                    <img class="grid_image pnd2" src="images/pnd2.jpg">
+                </div>
+                <div class="grid_item">
+                    <img class="grid_image jhene" src="images/jhene.jpg">
+                </div>
+                <div class="grid_item">
+                    <img class="grid_image frankocean" src="images/frankocean.jpg">
+                </div>
+                <div class="grid_item" id="demo">
+                    <img class="grid_image weeknd" src="images/weeknd.jpg">
+                </div>
+                <div class="grid_item">
+                    <img class="grid_image kendrick" src="images/kendrick.jpg">
+                </div>
+                <div class="grid_item">
+                    <img class="grid_image pnd" src="images/pnd.jpg">
+                </div>
+            </div>
         </div>
+
+
+    <audio id='weeknd' preload="true" src="audio/28.mp3" type="audio/mpeg"></audio>
+    
+    <audio id='kendrick' src="audio/adhd.mp3" type="audio/mpeg"></audio>
+    <audio id='pnd' src="audio/spiteful.mp3" type="audio/mpeg"></audio>
+    <audio id='pndd' src="audio/tbh.mp3" type="audio/mpeg"></audio>
+       
+    <script src="js/scripts.js"></script>
 
     </body>
 </html>
