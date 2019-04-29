@@ -1,14 +1,23 @@
-// document.querySelector('.weeknd').addEventListener("mouseover", mouseOver);
-// document.querySelector('.weeknd').addEventListener("mouseout", mouseOut);
+document.getElementById("weeknd_album").addEventListener("mouseover", playSong);
+document.getElementById("weeknd_album").addEventListener("mouseout", stopSong);
 
-// function mouseOver() {
-//   document.getElementById("demo").style.color = "red";
-// }
+function playSong() {
+    document.getElementById("weeknd").play();
+}
 
-let weeknd = document.querySelector('.weeknd');
+function stopSong() {
+    document.getElementById("weeknd").load();
+}
 
-weeknd.addEventListener("mouseover", playAudio);
 
-function playAudio(event) {
-    document.querySelector('#pnd').play();
+
+document.getElementById("pnd2_album").addEventListener("mouseover", playSong);
+document.getElementById("pnd2_album").addEventListener("mouseout", stopSong);
+
+function playSong() {
+    document.getElementById("pnd2").play();
+}
+
+function stopSong() {
+    document.getElementById("pnd2").pause();
 }

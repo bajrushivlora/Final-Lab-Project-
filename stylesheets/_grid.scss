@@ -5,6 +5,11 @@
 
 	&_item {
 		width: 33.3%;
+		opacity: 1;
+	}
+
+	&_item:hover {
+		opacity: .6;
 	}
 
 	&_image {

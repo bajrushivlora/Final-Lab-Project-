@@ -137,6 +137,10 @@ a:hover {
 }
 .grid_item {
   width: 33.3%;
+  opacity: 1;
+}
+.grid_item:hover {
+  opacity: 0.6;
 }
 .grid_image {
   width: 100%;
