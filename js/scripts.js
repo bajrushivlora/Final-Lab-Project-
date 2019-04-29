@@ -3,6 +3,7 @@ document.getElementById("weeknd_album").addEventListener("mouseout", stopSong);
 
 function playSong() {
     document.getElementById("weeknd").play();
+    console.log(play);
 }
 
 function stopSong() {
@@ -19,5 +20,6 @@ function playSong() {
 }
 
 function stopSong() {
-    document.getElementById("pnd2").pause();
+    document.getElementById("pnd2").load();
 }
+
