@@ -10,14 +10,61 @@ function stopWeekndSong() {
 }
 
 
-document.getElementById("pnd2_album").addEventListener("mouseover", PNDSong);
-document.getElementById("pnd2_album").addEventListener("mouseout", stopPNDSong);
+    document.getElementById("pnd2_album").addEventListener("mouseover", PND2Song);
+    document.getElementById("pnd2_album").addEventListener("mouseout", stopPND2Song);
 
-function PNDSong() {
-    document.getElementById("pnd2").play();
+    function PND2Song() {
+        document.getElementById("pnd2").play();
+    }
+
+    function stopPND2Song() {
+        document.getElementById("pnd2").load();
+    }
+
+
+document.getElementById("jhene_album").addEventListener("mouseover", jheneSong);
+document.getElementById("jhene_album").addEventListener("mouseout", stopJheneSong);
+
+function jheneSong() {
+    document.getElementById("jhene").play();
 }
 
-function stopPNDSong() {
-    document.getElementById("pnd2").load();
+function stopJheneSong() {
+    document.getElementById("jhene").load();
 }
 
+
+    document.getElementById("frankocean_album").addEventListener("mouseover", oceanSong);
+    document.getElementById("frankocean_album").addEventListener("mouseout", stopOceanSong);
+
+    function oceanSong() {
+        document.getElementById("frankocean").play();
+    }
+
+    function stopOceanSong() {
+        document.getElementById("frankocean").load();
+    }
+
+
+document.getElementById("kendrick_album").addEventListener("mouseover", kendrickSong);
+document.getElementById("kendrick_album").addEventListener("mouseout", stopKendrickSong);
+
+function kendrickSong() {
+    document.getElementById("kendrick").play();
+}
+
+function stopKendrickSong() {
+    document.getElementById("kendrick").load();
+}
+
+
+    document.getElementById("pnd_album").addEventListener("mouseover", pndSong);
+    document.getElementById("pnd_album").addEventListener("mouseout", stopPNDSong);
+
+    function pndSong() {
+        document.getElementById("pnd").play();
+    }
+
+    function stopPNDSong() {
+        document.getElementById("pnd").load();
+    }

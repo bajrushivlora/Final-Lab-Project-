@@ -2,15 +2,30 @@
     position: relative;
     flex-grow: 0;
     flex-shrink: 0;
-    width: 125px;
+    width: 145px;
+    visibility: hidden;
+    animation-name: fadein;
+	animation-delay: 3s;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
 
     &_genre {
         font-family: var(--sansone);
         font-weight: bold;
-        font-size: 15px;
+        font-size: 18px;
         color: var(--white);
         letter-spacing: 0px;
         padding-left: 15px;
         margin: 5px;
     }
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		visibility: visible;
+		opacity: 1;
+	}
 }
