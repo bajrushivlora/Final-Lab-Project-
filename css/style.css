@@ -240,14 +240,16 @@ a:hover {
 
 .modal {
   opacity: 0;
+  top: 0;
   pointer-events: none;
   position: fixed;
-  height: 45vh;
+  height: 100vh;
   width: 100vw;
   background-color: black;
+  z-index: 1;
 }
 .modal--open {
-  opacity: 0.9;
+  opacity: 0.85;
   pointer-events: all;
 }
 .modal h1 {
@@ -272,10 +274,30 @@ a:hover {
   line-height: 1.4;
 }
 
-#modal-close {
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.modal-close:before, .modal-close:after {
+  position: absolute;
+  content: "";
   top: 0;
-  right: 0;
-  color: white;
+  left: 14px;
+  width: 5px;
+  height: 20px;
+  background-color: white;
+}
+.modal-close:before {
+  transform: rotate(45deg);
+}
+.modal-close:after {
+  transform: rotate(-45deg);
 }
 
 /*# sourceMappingURL=style.css.map */
