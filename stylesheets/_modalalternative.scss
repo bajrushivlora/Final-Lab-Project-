@@ -2,10 +2,8 @@
 	opacity: 0;
 	pointer-events: none;
 	position: fixed;
-	height: 100vh;
+	height: 45vh;
 	width: 100vw;
-	top: 0;
-	left: 0;
 	background-color: black;
 
 	&--open {
@@ -13,7 +11,18 @@
 		pointer-events: all;
 	}
 
-	p {
+	h1 {
+		position: relative;
+		font-size: 18px;
+        font-family: var(--sansone);
+        color: var(--red);
+        text-align: left;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	ol {
 		position: absolute;
         font-size: 18px;
         font-family: var(--sansone);
@@ -22,6 +31,7 @@
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
+		line-height: 1.4;
 	}
 
 }

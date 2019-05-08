@@ -7,7 +7,8 @@
     animation-name: fadein;
 	animation-delay: 3s;
 	animation-duration: 3s;
-	animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    z-index: 1;
 
     &_genre {
         font-family: var(--sansone);

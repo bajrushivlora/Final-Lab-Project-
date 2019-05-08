@@ -3,3 +3,19 @@ html, body {
     flex-wrap: wrap;
     background-color: var(--black);
 }
+
+.whole {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.video {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
