@@ -9,12 +9,15 @@
 	animation-fill-mode: forwards;
 
 	&_item {
+		position: relative;
 		width: 33.3%;
 		opacity: 1;
 	}
 
 	&_item:hover {
+		position: relative;
 		opacity: .6;
+		text-align: center;
 	}
 
 	&_image {
