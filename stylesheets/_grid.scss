@@ -1,7 +1,7 @@
 .grid {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 60px 60px;
+	padding: 0 80px 80px;
 	animation-name: uncover;
 	visibility: hidden;
 	animation-delay: 5s;
@@ -17,13 +17,11 @@
 	&_item:hover {
 		position: relative;
 		opacity: .6;
-		text-align: center;
 	}
 
 	&_image {
 		width: 100%;
 		height: auto;
-		margin: 0px;
 	}
 }
 
