@@ -1,0 +1,28 @@
+.coming {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1000px;
+    height: 400px;
+    visibility: hidden;
+    animation-name: fadee;
+	animation-delay: 4.5s;
+	animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.comingsoon {
+    font-family: var(--main-font);
+    font-size: 40px;
+    color: var(--red);
+    margin: auto;
+}
+
+@keyframes fadee {
+	from {
+		opacity: 0;
+	}
+	to {
+		visibility: visible;
+		opacity: 1;
+	}
+}
